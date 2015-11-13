@@ -1,0 +1,21 @@
+## Interface: 60200
+## Title: GnomTEC_Marches
+## Notes: GnomTEC Marches.
+## Notes-deDE: GnomTEC Marches.
+## Notes-esES: GnomTEC Marches.
+## Notes-esMX: GnomTEC Marches.
+## Notes-frFR: GnomTEC Marches.
+## Notes-itIT: GnomTEC Marches.
+## Notes-koKR: GnomTEC Marches.
+## Notes-ptBR: GnomTEC Marches.
+## Notes-ruRU: GnomTEC Marches.
+## Notes-zhCN: GnomTEC Marches.
+## Notes-zhTW: GnomTEC Marches.
+## Author: Peter Jack
+## Version: 6.2.2.1
+## Dependencies: GnomTEC
+## SavedVariables: GnomTEC_MarchesDB
+
+locale\locale.xml
+
+GnomTEC_Marches.lua
