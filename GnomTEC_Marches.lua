@@ -117,6 +117,9 @@ local function GnomTECMarches()
 	local actualVerse = 1
 	local actualMode = nil	
 	local participant = {}
+	
+	local chat = GnomTECClassChat();
+
 
 	-- private methods
 	-- local function f()
@@ -125,7 +128,7 @@ local function GnomTECMarches()
 		actualVerse = 1
 		participant = {}
 		
-		self.Say("Ein Lied … 2 … 3 … 4!")
+		chat.Say("Ein Lied … 2 … 3 … 4!")
 	end
 
 	local function OnClickMainWindowStopMarch(widget, button)
@@ -211,13 +214,13 @@ local function GnomTECMarches()
 				if (data.mode == MODE_EMOTE) then
 					self.Emote(L["L_EMOTE_TROOP"]..'"'..(L["L_MARCHES"][data.march][data.verse][4] or "")..'"')
 				else
-					self.Say(L["L_MARCHES"][data.march][data.verse][4] or "")
+					chat.Say(L["L_MARCHES"][data.march][data.verse][4] or "")
 				end
 			end
 		end
 	end
 	
-	function self.OnSay(message, sender)
+	function chat.OnSay(message, sender)
 		if (message == "Ein Lied … 2 … 3 … 4!") then
 			local data = {}
 			data.participate = true
