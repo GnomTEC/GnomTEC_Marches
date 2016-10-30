@@ -1,4 +1,4 @@
-## Interface: 70000
+## Interface: 70100
 ## Title: GnomTEC_Marches
 ## Notes: GnomTEC Marches.
 ## Notes-deDE: GnomTEC Marches.
@@ -12,7 +12,7 @@
 ## Notes-zhCN: GnomTEC Marches.
 ## Notes-zhTW: GnomTEC Marches.
 ## Author: Peter Jack
-## Version: 7.0.3.1
+## Version: 7.1.0.1
 ## Dependencies: GnomTEC
 ## SavedVariables: GnomTEC_MarchesDB
 
